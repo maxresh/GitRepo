@@ -6,7 +6,11 @@ public class Main {
 
     public static void main(String[] args) {
         Random random = new Random();
-        int liczba = random.nextInt(100);
-        System.out.println(liczba);
+       // int liczba = random.nextInt(100);
+        //System.out.println(liczba);
+        for(int i = 0; i<10;i++){
+            int liczba = random.nextInt(100);
+            System.out.println(liczba);
+        }
     }
 }
